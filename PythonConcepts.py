@@ -13,11 +13,11 @@ print('o/p is ----> ', test[8:])  # o/p---> Python First
 
 print(len(test))
 
-print(test.upper())         # o/p---> THIS IS PYTHON FIRST
+print(test.upper())  # o/p---> THIS IS PYTHON FIRST
 
-print(test.lower())         # o/p---> this is python first
+print(test.lower())  # o/p---> this is python first
 
-print(test.capitalize())    # o/p---> This is python first
+print(test.capitalize())  # o/p---> This is python first
 # ====================================================================
 '''
 Multiple lines Comments
@@ -53,7 +53,7 @@ elif num == 30:
 else:
     print ('The number is above 30')'''
 
-# ====================================================================
+# ====================================================================#
 print('===================================')
 
 # Loops in python
@@ -63,3 +63,9 @@ SYNTAX :
 for iterating_var in sequence:  
     statement(s)  
 '''
+
+# ====================================================================#
+
+colors = ['red', 'orange', 'pink', 'white', 'black']
+for i in range(len(colors)):
+    print(colors[i])
