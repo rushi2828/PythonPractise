@@ -35,7 +35,7 @@ def fact(x):
     return x * fact(x - 1)
 
 
-x = int(raw_input())
+x = int(raw_input("enter any number"))
 print(fact(x))
 
 # ----------------------------------#

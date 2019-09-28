@@ -1,4 +1,5 @@
 # Python Strings
+from audioop import reverse
 from builtins import len, input, int
 
 test = "this is Python First"
@@ -69,3 +70,50 @@ for iterating_var in sequence:
 colors = ['red', 'orange', 'pink', 'white', 'black']
 for i in range(len(colors)):
     print(colors[i])
+
+# ======================================================================#
+
+print('===================================')
+# x = int(input('enter the number'))
+
+x = -1
+if x < 0:
+    print('Number is negative')
+elif x == 0:
+    print('X is Zero')
+else:
+    print('Number is positive')
+
+# ============================LISTS==========================================#
+print('===================================')
+
+words = ['a', 'this', 'new', 'word']
+numbers = [2, 3, 4, 5, 7, 8, 9, 6, 23, 56, 78]
+
+print(words[:4])
+
+print('===================================')
+
+print(numbers[1:5])
+
+print('===================================')
+
+print(list(reversed(numbers)))
+
+print('===================================')
+
+for w in words:
+    print(w, len(w))
+
+
+
+
+
+
+
+
+
+
+
+
+
