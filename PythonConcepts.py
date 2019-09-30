@@ -71,7 +71,7 @@ colors = ['red', 'orange', 'pink', 'white', 'black']
 for i in range(len(colors)):
     print(colors[i])
 
-# ======================================================================#
+# ============================ If-Else Statement ==========================================#
 
 print('===================================')
 # x = int(input('enter the number'))
@@ -84,7 +84,7 @@ elif x == 0:
 else:
     print('Number is positive')
 
-# ============================LISTS==========================================#
+# ============================ Python: LISTS ===============================================#
 print('===================================')
 
 words = ['a', 'this', 'new', 'word']
@@ -105,15 +105,25 @@ print('===================================')
 for w in words:
     print(w, len(w))
 
+# ============================ OOPS CONCEPTS: Class and Objects  ===========================#
+print('===================================')
 
 
+# Class and objects
+class FirstClass:
+    id = 10
+    name = "Rushi"
+
+    def display(self):
+        print(self.name, self.id)
+        print("ID:%d\nName:%s" % (self.id, self.name))
 
 
+firstClass = FirstClass()
+firstClass.display()
 
-
-
-
-
+# ============================ OOPS CONCEPTS: Python Constructor ===========================#
+print('===================================')
 
 
 
